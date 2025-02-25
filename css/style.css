@@ -23,7 +23,7 @@ h1:hover {
     position:absolute;
 animation-name: fly;
 animation-iteration-count: infinite;
-animation-duration: 5s;
+animation-duration: 6s;
 }
 
 @keyframes fly {
