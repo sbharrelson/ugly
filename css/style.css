@@ -1,0 +1,52 @@
+body {
+margin-top: 50px;
+background-color: rgb(255, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+color: rgb(255, 242, 0);
+text-align: center;
+
+
+}
+
+h1 {
+    color: rgb(255, 247, 0);
+    background-color: rgba(139, 0, 139, 0);
+}
+
+h1:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+
+#comet {
+    position:absolute;
+animation-name: fly;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+}
+
+@keyframes fly {
+    from{
+        top:0px;
+        left: 0px;
+    }
+
+    25% {
+        top:250px;
+        left: 250px;
+    }
+
+50% {
+
+    top: 500px;
+    left: 500px;
+}
+
+
+    to{
+    top:750px;
+    right:0px;
+
+    }
+}
